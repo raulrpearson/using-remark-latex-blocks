@@ -4,7 +4,7 @@
   "description": "A demo Gatsby site for gatsby-remark-latex-blocks",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "author": "Raúl R Pearson <raulrpearson@protonmail.com>",
   "license": "MIT",
@@ -15,5 +15,8 @@
     "graphql": "^14.1.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }

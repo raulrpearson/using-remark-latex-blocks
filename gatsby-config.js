@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/using-remark-latex-blocks',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
