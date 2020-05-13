@@ -9,14 +9,14 @@
   "author": "Raúl R Pearson <raulrpearson@protonmail.com>",
   "license": "MIT",
   "dependencies": {
-    "gatsby": "^2.15.29",
-    "gatsby-source-filesystem": "^2.1.29",
-    "gatsby-transformer-remark": "^2.6.27",
-    "graphql": "^14.5.8",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "gatsby": "^2.21.28",
+    "gatsby-source-filesystem": "^2.3.3",
+    "gatsby-transformer-remark": "^2.8.8",
+    "graphql": "^14.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.2.0"
   }
 }
